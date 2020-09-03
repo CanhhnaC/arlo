@@ -1,0 +1,79 @@
+html {
+	overflow-x: hidden;
+	padding: 0px;
+	margin: 0px
+}
+
+body {
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 0.8px;
+	word-wrap: break-word;
+	font-weight: 400;
+	background-color: #fff;
+	color: #6f6f6f;
+}
+
+svg {
+	fill: currentcolor;
+	width: 15px;
+	height: 15px;
+}
+
+img.svg {
+	width: 15px;
+	height: 15px;
+}
+
+::-webkit-input-placeholder {
+	/* WebKit, Blink, Edge */
+	color: #6f6f6f;
+}
+
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #6f6f6f;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #6f6f6f;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #6f6f6f;
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #6f6f6f;
+}
+
+::placeholder {
+	/* Most modern browsers support this now. */
+	color: #6f6f6f;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight:500;
+	line-height: 1.4;
+	font-family: "Montserrat";
+	color: #000;
+}
+h1 { font-size: 45px; }
+h2 { font-size: 36px; }
+h3 { font-size: 30px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 16px; }
+
+.section {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
