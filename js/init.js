@@ -1,3 +1,4 @@
+
 function arlo_tm_popup_news() {
   'use strict';
   var e = jQuery('.arlo_tm_news .news_inner ul li'),
@@ -213,15 +214,7 @@ function arlo_tm_switcher() {
           t.addClass('opened'),
           r.addClass('opened2'),
           o.addClass('opened')),
-      setTimeout(function () {
-        jQuery('#ripple').ripples('updateSize');
-      }, 101),
-      setTimeout(function () {
-        jQuery('#ripple').ripples('updateSize');
-      }, 201),
-      setTimeout(function () {
-        jQuery('#ripple').ripples('updateSize');
-      }, 301),
+      
       jQuery('.jarallax').length &&
         (jQuery('.jarallax').jarallax('destroy'),
         setTimeout(function () {

@@ -85,10 +85,10 @@ const RightBox = () => {
     <Right>
       <Title>
         <h3>
-          I'm Chu Van Tinh and{' '}
+          I'm Chu Van Tinh and{" "}
           <Typed
             strings={['Freelancer', 'Web Developer', 'Photographer']}
-            loop='true'
+            loop={true}
             typeSpeed={30}
             backSpeed={40}
           />

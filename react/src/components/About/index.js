@@ -57,7 +57,7 @@ const Wrap = styled.div`
 
 const About = () => {
   return (
-    <div className="section">
+    <div className="section" id="about">
       <Wrap>
         <Main>
           <Container>

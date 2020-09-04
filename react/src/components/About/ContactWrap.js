@@ -82,19 +82,19 @@ const ContactWrap = () => {
     <Contact>
       <ul>
         <li>
-          <img class='svg' src={gift} alt='' />
+          <img className='svg' src={gift} alt='' />
           <span>
             <label>Birthday:</label> 30.03.2000
           </span>
         </li>
         <li>
-          <img class='svg' src={calendar} alt='' />
+          <img className='svg' src={calendar} alt='' />
           <span>
             <label>Age:</label> 20
           </span>
         </li>
         <li>
-          <img class='svg' src={location} alt='' />
+          <img className='svg' src={location} alt='' />
           <span>
             <label>Location:</label>{' '}
             <a href='#' onClick={href_location}>
@@ -103,13 +103,13 @@ const ContactWrap = () => {
           </span>
         </li>
         <li>
-          <img class='svg' src={controller} alt='' />
+          <img className='svg' src={controller} alt='' />
           <span>
             <label>Interests:</label> Work Hard, Play Hard
           </span>
         </li>
         <li>
-          <img class='svg' src={study} alt='' />
+          <img className='svg' src={study} alt='' />
           <span>
             <label>Study:</label>
             <a href='#' onClick={href_location}>
@@ -118,20 +118,20 @@ const ContactWrap = () => {
           </span>
         </li>
         <li>
-          <img class='svg' src={degree} alt='' />
+          <img className='svg' src={degree} alt='' />
           <span>
             <label>Degree:</label> Master
           </span>
         </li>
         <li>
-          <img class='svg' src={message} alt='' />
+          <img className='svg' src={message} alt='' />
           <span>
             <label>Mail:</label>
             <a href='mailto:example@gmail.com'>cvtinh2000&#64;gmail.com</a>
           </span>
         </li>
         <li>
-          <img class='svg' src={call} alt='' />
+          <img className='svg' src={call} alt='' />
           <span>
             <label>Phone:</label>
             <a href='tel:+84 964 819 014'>+84 964 819 014</a>

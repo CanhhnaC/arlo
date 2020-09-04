@@ -50,7 +50,6 @@ const Left = styled.div`
 
 const LeftBox = () => {
   useEffect(() => {
-    console.log(process.env.PUBLIC_URL + '/img/avatar.jpg');
     var scene = document.getElementById('parallax');
     new Parallax(scene);
   });
